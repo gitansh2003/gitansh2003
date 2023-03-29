@@ -17,11 +17,12 @@ def kr():
     kr=((ic-bkg)*1.65)/(3600*2.9*3.7*eff)
     kr_field.insert(100,kr)
 if __name__ == "__main__" :
+    
     root=tk.Tk()
     root.configure(background = 'light green')
    
     # Set the configuration of GUI window
-    root.geometry("%dx%d" % (450, 250))
+    root.geometry("%dx%d" % (450, 300))
     # set the name of tkinter GUI window
     root.title("Krypton Calculator")
     root.resizable(height=0, width=0)
